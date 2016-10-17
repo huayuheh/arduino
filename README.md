@@ -136,6 +136,6 @@ Using the code snippets above we followed an iterative and agile approach to dev
 
 Starting from the mobile client there were numerous buttons laid vertically (see below). Each button was mapped to a ```socket.emit( ... )``` which passed a command to the socket server on the Raspberry Pi. The Raspberry Pi then used the Serial setup to forward that command to the Arduino where it properly turned on the correct LED.
 
-[Mobile Client](https://raw.githubusercontent.com/ComputerEnchiladas/arduino/master/testing/IMG_1020.PNG)
+![Mobile Client](https://raw.githubusercontent.com/ComputerEnchiladas/arduino/master/testing/IMG_1020.PNG)
 
 View a full system testing [video](https://github.com/ComputerEnchiladas/arduino/blob/master/testing/prototype_testing.m4v?raw=true)
